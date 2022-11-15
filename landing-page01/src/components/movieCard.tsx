@@ -4,7 +4,7 @@ import { movieProps } from "../pages/Home";
 
 const imageUrl = import.meta.env.VITE_IMG;
 
-const MovieCard = ({movie}, { Showlink = true} ) => {
+const MovieCard = ({movie, Showlink = true} ) => {
 
 
   return (
