@@ -23,9 +23,8 @@ export const FormStep2 = () => {
   }, []);
 
   const handleNextStep = () => {
-    if (state.name != "") navigate("/step2");
-
-    alert("Preencha os dados");
+    if (state.name != "") navigate("/step3");
+    else alert("Preencha seus dados");
   };
 
   const setLevel = (level: number) => {
