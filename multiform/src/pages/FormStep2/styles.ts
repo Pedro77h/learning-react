@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 
 export const Container = styled.div`
   p {
@@ -49,5 +48,13 @@ export const Container = styled.div`
     cursor: pointer;
     margin-top: 30px;
   }
-`;
 
+  .backButton{
+    font-size: 16p;
+    text-decoration: none;
+    padding: 20px 40px;
+    color: #b8b8d4 ;
+  }
+  
+
+`;
